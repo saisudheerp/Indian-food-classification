@@ -64,7 +64,9 @@ We evaluated the model using accuracy and loss metrics. The training and validat
 
 ## Results
 The model performs exceptionally well on a variety of Indian food images, with a test accuracy of 89%, and also proved its efficiency for predicting single image and batch images. This level of performance suggests the model is well-suited for deployment.
-
+<p align="center">
+  <img src="image.png" alt="1.png" width="400"/>
+</p>
 To assess the performance of the our InceptionV3 model, we compared it with other state-of-the-art models:
 
 | Model                 | Accuracy (%) |
