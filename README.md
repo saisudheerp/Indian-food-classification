@@ -1,5 +1,6 @@
 # Indian Food Classification using InceptionV3
-![Indian Food Classification](indian_food.jpg)
+
+
 
 This project leverages deep learning to classify Indian food images into 20 categories using InceptionV3 with transfer learning. The goal is to create an accurate and robust model that can distinguish between visually similar dishes, aiding food recognition for various applications.
 
@@ -28,6 +29,10 @@ The model is trained on the Food20 dataset, which consists of:
 - 1,250 validation images
 - 20 food categories such as Biryani, Idli, Paneer Tikka, and Kulfi.
 
+<p align="center">
+  <img src="indian_food.jpg" alt="Indian Food Classification" width="400"/>
+</p>
+
 The dataset is split into training and validation sets, with images preprocessed (resized and normalized) to fit the InceptionV3 input requirements.
 
 ## Model Architecture
@@ -37,6 +42,10 @@ We fine-tune InceptionV3, a state-of-the-art CNN model, for our food classificat
 - **Fully Connected Layer:** A dense layer with 128 units and ReLU activation.
 - **Dropout Layer:** A dropout rate of 20% to prevent overfitting.
 - **Output Layer:** A dense layer with softmax activation for 20 categories.
+
+<p align="center">
+  <img src="1.png" alt="1.png" width="400"/>
+</p>
 
 The model is trained using categorical crossentropy as the loss function and optimized using Stochastic Gradient Descent (SGD) with a learning rate of 0.0001.
 
@@ -55,7 +64,9 @@ We evaluated the model using accuracy and loss metrics. The training and validat
 
 ## Results
 The model performs exceptionally well on a variety of Indian food images, with a test accuracy of 89%, and also proved its efficiency for predicting single image and batch images. This level of performance suggests the model is well-suited for deployment.
-
+<p align="center">
+  <img src="image.png" alt="1.png" width="400"/>
+</p>
 To assess the performance of the our InceptionV3 model, we compared it with other state-of-the-art models:
 
 | Model                 | Accuracy (%) |
